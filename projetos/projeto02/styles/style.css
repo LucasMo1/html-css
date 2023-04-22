@@ -1,0 +1,35 @@
+:root {
+    --cor-texto: #FFFFFF;
+    --cor-texto-secundaria: #C0C0C0;
+    --cor-botao: #167BF7;
+    --cor-fundo: #00030C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+.container {
+    height: 100vh;
+}
+
+.principal {
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container__botao {
+    background-color: var(--cor-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-texto);
+    text-decoration: none;
+    display: block;
+}
