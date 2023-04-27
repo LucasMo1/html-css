@@ -104,6 +104,7 @@ body {
 }
 
 .dispositivos__titulo {
+    margin: 0 2em;
     font-size: 3rem;
     color: var(--cor-texto);
 }
@@ -172,7 +173,7 @@ body {
     }
 
     .secundario__imagem {
-        width: 40vw;
+        width: 50vw;
     }
 
     .dispositivos__lista {
