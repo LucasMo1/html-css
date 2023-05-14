@@ -1,11 +1,15 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("carrossel.css");
+@import url("topicos.css");
+@import url("contato.css");
+@import url("rodape.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
     --cor-de-fundo: #EBECEE;
     --cor-titulo: #EB9B00;
+    --cor-titulo-sec: #002F52;
     --cor-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --branco: #FFFFFF;
     --fonte-principal: 'Poppins', sans-serif;
