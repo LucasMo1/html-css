@@ -30,11 +30,17 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .topicos__titulo: {
+    .topicos__titulo {
         font-size: 1.5rem;
     }
 
     .topicos__link {
         font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1728px) { 
+    .topicos {
+        padding: 3em 35vw;
     }
 }
